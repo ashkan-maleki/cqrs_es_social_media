@@ -8,7 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/3.1 docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Post.Command.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Post.Command.Api.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671129073805</updated>
       <workItem from="1671129104273" duration="633000" />
+      <workItem from="1671177235275" duration="580000" />
     </task>
     <servers />
   </component>
