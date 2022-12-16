@@ -5,9 +5,11 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
-    
+
     <ItemGroup>
-        <ProjectReference Include="..\..\..\CQRS.ES\CQRS.Core\CQRS.Core.csproj"/>
+      <ProjectReference Include="..\..\CQRS.ES\CQRS.Core\CQRS.Core.csproj" />
     </ItemGroup>
+    
+ 
 
 </Project>

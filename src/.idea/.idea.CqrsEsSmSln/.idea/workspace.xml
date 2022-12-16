@@ -8,15 +8,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Commands/BaseCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Events/BaseEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Messages/Message.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Commands/AddCommentCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Commands/DeletePostCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Commands/EditCommentCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Commands/EditMessageCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Commands/LikePostCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Commands/NewPostCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Commands/RemoveCommentCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Common/Events/CommentAddedEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Common/Events/CommentRemovedEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Common/Events/CommentUpdatedEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Common/Events/MessageUpdatedEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Common/Events/PostCreatedEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Common/Events/PostLikedEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Common/Events/PostRemovedEvent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/CQRS.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/CQRS.Core.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CqrsEsSmSln.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CqrsEsSmSln.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Domain/Post.Command.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Domain/Post.Command.Domain.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Post.Command.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Post.Command.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Common/Class1.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SM.Post/Post.Common/Post.Common.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Common/Post.Common.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Post.Query.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Post.Query.Api.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Domain/Post.Query.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Domain/Post.Query.Domain.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Infrastructure/Post.Query.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Infrastructure/Post.Query.Infrastructure.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,14 +44,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "C#"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Post.Command.Api">
     <configuration name="Post.Command.Api" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Post.Command.Api.csproj" />
@@ -112,6 +130,7 @@
       <updated>1671129073805</updated>
       <workItem from="1671129104273" duration="633000" />
       <workItem from="1671177235275" duration="2973000" />
+      <workItem from="1671185598948" duration="4559000" />
     </task>
     <servers />
   </component>
@@ -120,6 +139,17 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
