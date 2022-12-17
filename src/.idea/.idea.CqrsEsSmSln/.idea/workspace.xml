@@ -8,11 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Domain/AggregateRoot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Infrastructure/ICommandDispatcher.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Dispatchers/CommandDispatcher.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Domain/Aggregates/PostAggregate.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Post.Command.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Post.Command.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Domain/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Domain/Post.Command.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Domain/Post.Command.Domain.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,8 +115,31 @@
       <workItem from="1671177235275" duration="2973000" />
       <workItem from="1671185598948" duration="4559000" />
       <workItem from="1671197400928" duration="616000" />
-      <workItem from="1671198317524" duration="3706000" />
+      <workItem from="1671198317524" duration="4436000" />
+      <workItem from="1671285356813" duration="4199000" />
     </task>
+    <task id="LOCAL-00001" summary="I do not know">
+      <created>1671203218000</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671203218000</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adding command dispatcher">
+      <created>1671203242455</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671203242455</updated>
+    </task>
+    <task id="LOCAL-00003" summary="creating Aggregate Root">
+      <created>1671203259862</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671203259862</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,5 +160,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="I do not know" />
+    <MESSAGE value="adding command dispatcher" />
+    <MESSAGE value="creating Aggregate Root" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating Aggregate Root" />
   </component>
 </project>
