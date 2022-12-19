@@ -7,17 +7,18 @@
     <projectFile profileName="Post.Query.Api">SM.Post/Post.Query/Post.Query.Api/Post.Query.Api.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Commands/CommandHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Commands/ICommandHandler.cs" afterDir="false" />
+    <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="adding command handler">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Domain/Aggregates/PostAggregate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Domain/Aggregates/PostAggregate.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://F:/learn/dotnet/cqrs_es_social_media/src/SM.Post/Post.Command/Post.Command.Api/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://F:/learn/dotnet/cqrs_es_social_media/src/SM.Post/Post.Command/Post.Command.Domain/Aggregates/PostAggregate.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -121,7 +122,7 @@
       <workItem from="1671297835276" duration="3184000" />
       <workItem from="1671455100827" duration="3229000" />
       <workItem from="1671461886072" duration="2837000" />
-      <workItem from="1671473522605" duration="3038000" />
+      <workItem from="1671473522605" duration="3794000" />
     </task>
     <task id="LOCAL-00001" summary="I do not know">
       <created>1671203218000</created>
@@ -221,7 +222,35 @@
       <option name="project" value="LOCAL" />
       <updated>1671464828519</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="adding dependency injection">
+      <created>1671480632280</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1671480632281</updated>
+    </task>
+    <task id="LOCAL-00016" summary="workspace.xml">
+      <created>1671480644475</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1671480644475</updated>
+    </task>
+    <task id="LOCAL-00017" summary="completing missing parts of PostAggregate">
+      <created>1671480727894</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1671480727894</updated>
+    </task>
+    <task id="LOCAL-00018" summary="adding command handler">
+      <created>1671480742443</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1671480742443</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +284,10 @@
     <MESSAGE value="adding mongo db config model" />
     <MESSAGE value="creating event store repository" />
     <MESSAGE value="creating event model" />
+    <MESSAGE value="adding dependency injection" />
     <MESSAGE value="workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml" />
+    <MESSAGE value="completing missing parts of PostAggregate" />
+    <MESSAGE value="adding command handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding command handler" />
   </component>
 </project>
