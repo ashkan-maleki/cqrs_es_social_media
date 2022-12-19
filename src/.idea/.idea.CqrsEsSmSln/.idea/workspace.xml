@@ -7,26 +7,14 @@
     <projectFile profileName="Post.Query.Api">SM.Post/Post.Query/Post.Query.Api/Post.Query.Api.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Domain/IEventStoreRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Events/EventModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Exceptions/AggregateNotFoundException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Exceptions/ConcurrencyException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Handlers/IEventSourcingHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Infrastructure/IEventStore.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Config/MongoDbConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Handlers/EventSourcingHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Repositories/EventStoreRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Stores/EventStore.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Class1.cs" beforeDir="false" />
-    </list>
+    <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="creating event model" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://F:/learn/dotnet/cqrs_es_social_media/src/SM.Post/Post.Command/Post.Command.Api/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -129,7 +117,7 @@
       <workItem from="1671285356813" duration="4554000" />
       <workItem from="1671297835276" duration="3184000" />
       <workItem from="1671455100827" duration="3229000" />
-      <workItem from="1671461886072" duration="2429000" />
+      <workItem from="1671461886072" duration="2789000" />
     </task>
     <task id="LOCAL-00001" summary="I do not know">
       <created>1671203218000</created>
@@ -159,7 +147,70 @@
       <option name="project" value="LOCAL" />
       <updated>1671291526900</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="creating required exceptions">
+      <created>1671464591213</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671464591213</updated>
+    </task>
+    <task id="LOCAL-00006" summary="mongodb connection string">
+      <created>1671464633463</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671464633463</updated>
+    </task>
+    <task id="LOCAL-00007" summary="workspace and cleaning projects">
+      <created>1671464668498</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671464668498</updated>
+    </task>
+    <task id="LOCAL-00008" summary="setting up mongodb and dependency injection">
+      <created>1671464729667</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671464729667</updated>
+    </task>
+    <task id="LOCAL-00009" summary="adding event sourcing handler">
+      <created>1671464747936</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671464747936</updated>
+    </task>
+    <task id="LOCAL-00010" summary="adding event store">
+      <created>1671464761465</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671464761465</updated>
+    </task>
+    <task id="LOCAL-00011" summary="adding mongo db config model">
+      <created>1671464781526</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671464781526</updated>
+    </task>
+    <task id="LOCAL-00012" summary="creating event store repository">
+      <created>1671464797792</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671464797792</updated>
+    </task>
+    <task id="LOCAL-00013" summary="creating event model">
+      <created>1671464810173</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1671464810173</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +235,15 @@
     <MESSAGE value="adding command dispatcher" />
     <MESSAGE value="creating Aggregate Root" />
     <MESSAGE value="adding post aggregate" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding post aggregate" />
+    <MESSAGE value="creating required exceptions" />
+    <MESSAGE value="mongodb connection string" />
+    <MESSAGE value="workspace and cleaning projects" />
+    <MESSAGE value="setting up mongodb and dependency injection" />
+    <MESSAGE value="adding event sourcing handler" />
+    <MESSAGE value="adding event store" />
+    <MESSAGE value="adding mongo db config model" />
+    <MESSAGE value="creating event store repository" />
+    <MESSAGE value="creating event model" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating event model" />
   </component>
 </project>
