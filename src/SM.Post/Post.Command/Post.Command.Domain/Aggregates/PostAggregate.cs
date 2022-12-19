@@ -132,7 +132,26 @@ public class PostAggregate : AggregateRoot
             EditDate = DateTime.Now
         });
     }
-
+    public void Apply(CommentUpdatedEvent @event)
+    {
+        Id = @event.Id;
+        _comments[@event.CommentId] = new Tuple<string, string>(
+            @event.Comment, @event.Username);
+    }
+    
+    public void RemoveComment(Guid commentId, string username)
+    {
+        ThrowInvalidOperationExceptionIfNotActive();
+        ThrowInvalidOperationExceptionIfUserIsNotAuthorized(
+            _comments[commentId].Item2,
+            username, "comment");
+        RaiseEvent(new CommentRemovedEvent
+        {
+            Id = Id,
+            CommentId = commentId
+        });
+    }
+    
     public void Apply(CommentRemovedEvent @event)
     {
         Id = @event.Id;
@@ -156,4 +175,14 @@ public class PostAggregate : AggregateRoot
         Id = @event.Id;
         _active = false;
     }
+    
+    // ==========
+
+
+    
+
+    
+
+    
+    // ===========
 }
