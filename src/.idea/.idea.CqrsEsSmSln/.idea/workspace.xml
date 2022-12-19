@@ -8,10 +8,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Domain/Aggregates/PostAggregate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Domain/IEventStoreRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Events/EventModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Exceptions/AggregateNotFoundException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Exceptions/ConcurrencyException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Handlers/IEventSourcingHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Infrastructure/IEventStore.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Config/MongoDbConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Handlers/EventSourcingHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Repositories/EventStoreRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Stores/EventStore.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Domain/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Domain/Post.Command.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Domain/Post.Command.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Class1.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +126,10 @@
       <workItem from="1671185598948" duration="4559000" />
       <workItem from="1671197400928" duration="616000" />
       <workItem from="1671198317524" duration="4436000" />
-      <workItem from="1671285356813" duration="4199000" />
+      <workItem from="1671285356813" duration="4554000" />
+      <workItem from="1671297835276" duration="3184000" />
+      <workItem from="1671455100827" duration="3229000" />
+      <workItem from="1671461886072" duration="2429000" />
     </task>
     <task id="LOCAL-00001" summary="I do not know">
       <created>1671203218000</created>
@@ -139,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671203259862</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding post aggregate">
+      <created>1671291526900</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671291526900</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +183,7 @@
     <MESSAGE value="I do not know" />
     <MESSAGE value="adding command dispatcher" />
     <MESSAGE value="creating Aggregate Root" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating Aggregate Root" />
+    <MESSAGE value="adding post aggregate" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding post aggregate" />
   </component>
 </project>
