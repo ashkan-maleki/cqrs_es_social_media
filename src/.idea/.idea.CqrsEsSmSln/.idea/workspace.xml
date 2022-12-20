@@ -7,12 +7,12 @@
     <projectFile profileName="Post.Query.Api">SM.Post/Post.Query/Post.Query.Api/Post.Query.Api.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Producers/IEventProducer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Producers/EventProducer.cs" afterDir="false" />
+    <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="adding kafka event producer and its configuration">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Stores/EventStore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Stores/EventStore.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Properties/launchSettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +122,7 @@
       <workItem from="1671455100827" duration="3229000" />
       <workItem from="1671461886072" duration="2837000" />
       <workItem from="1671473522605" duration="4791000" />
-      <workItem from="1671541360338" duration="2604000" />
+      <workItem from="1671541360338" duration="3403000" />
     </task>
     <task id="LOCAL-00001" summary="I do not know">
       <created>1671203218000</created>
@@ -257,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671481501324</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="adding kafka event producer and its configuration">
+      <created>1671545665698</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1671545665698</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,6 +303,7 @@
     <MESSAGE value="completing missing parts of PostAggregate" />
     <MESSAGE value="adding command handler" />
     <MESSAGE value="registering command handlers" />
-    <option name="LAST_COMMIT_MESSAGE" value="registering command handlers" />
+    <MESSAGE value="adding kafka event producer and its configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding kafka event producer and its configuration" />
   </component>
 </project>
