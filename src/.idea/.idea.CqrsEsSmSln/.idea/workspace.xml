@@ -7,12 +7,11 @@
     <projectFile profileName="Post.Query.Api">SM.Post/Post.Query/Post.Query.Api/Post.Query.Api.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="adding kafka event producer and its configuration">
+    <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Domain/Entities/CommentEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Domain/Entities/PostEntity.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Stores/EventStore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Stores/EventStore.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Domain/Class1.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +121,8 @@
       <workItem from="1671455100827" duration="3229000" />
       <workItem from="1671461886072" duration="2837000" />
       <workItem from="1671473522605" duration="4791000" />
-      <workItem from="1671541360338" duration="3403000" />
+      <workItem from="1671541360338" duration="3607000" />
+      <workItem from="1671556733025" duration="1208000" />
     </task>
     <task id="LOCAL-00001" summary="I do not know">
       <created>1671203218000</created>
@@ -264,7 +264,35 @@
       <option name="project" value="LOCAL" />
       <updated>1671545665698</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="adding kafka topic variable">
+      <created>1671546469447</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1671546469447</updated>
+    </task>
+    <task id="LOCAL-00022" summary="nobody knows what it is">
+      <created>1671546487085</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1671546487085</updated>
+    </task>
+    <task id="LOCAL-00023" summary="configuring dependency injection for kafka event producer">
+      <created>1671546537899</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1671546537899</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add kafka producer to event store save event method">
+      <created>1671546569025</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1671546569025</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,6 +332,10 @@
     <MESSAGE value="adding command handler" />
     <MESSAGE value="registering command handlers" />
     <MESSAGE value="adding kafka event producer and its configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding kafka event producer and its configuration" />
+    <MESSAGE value="adding kafka topic variable" />
+    <MESSAGE value="nobody knows what it is" />
+    <MESSAGE value="configuring dependency injection for kafka event producer" />
+    <MESSAGE value="add kafka producer to event store save event method" />
+    <option name="LAST_COMMIT_MESSAGE" value="add kafka producer to event store save event method" />
   </component>
 </project>
