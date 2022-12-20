@@ -7,12 +7,7 @@
     <projectFile profileName="Post.Query.Api">SM.Post/Post.Query/Post.Query.Api/Post.Query.Api.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Domain/Entities/CommentEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Domain/Entities/PostEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Domain/Class1.cs" beforeDir="false" />
-    </list>
+    <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="Adding post and comment entity to query project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,7 +117,7 @@
       <workItem from="1671461886072" duration="2837000" />
       <workItem from="1671473522605" duration="4791000" />
       <workItem from="1671541360338" duration="3607000" />
-      <workItem from="1671556733025" duration="1208000" />
+      <workItem from="1671556733025" duration="1524000" />
     </task>
     <task id="LOCAL-00001" summary="I do not know">
       <created>1671203218000</created>
@@ -292,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671546569025</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Adding post and comment entity to query project">
+      <created>1671558701304</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1671558701304</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,6 +338,7 @@
     <MESSAGE value="nobody knows what it is" />
     <MESSAGE value="configuring dependency injection for kafka event producer" />
     <MESSAGE value="add kafka producer to event store save event method" />
-    <option name="LAST_COMMIT_MESSAGE" value="add kafka producer to event store save event method" />
+    <MESSAGE value="Adding post and comment entity to query project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding post and comment entity to query project" />
   </component>
 </project>
