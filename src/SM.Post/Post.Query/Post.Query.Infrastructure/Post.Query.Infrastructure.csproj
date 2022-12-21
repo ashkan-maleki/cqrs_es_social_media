@@ -7,14 +7,15 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\..\CQRS.ES\CQRS.Core\CQRS.Core.csproj"/>
-        <ProjectReference Include="..\Post.Query.Domain\Post.Query.Domain.csproj"/>
+        <ProjectReference Include="..\..\..\CQRS.ES\CQRS.Core\CQRS.Core.csproj" />
+        <ProjectReference Include="..\Post.Query.Domain\Post.Query.Domain.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Confluent.Kafka" Version="1.9.3"/>
-        <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1"/>
-        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.12"/>
+        <PackageReference Include="Confluent.Kafka" Version="1.9.3" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.12" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="6.0.12" />
     </ItemGroup>
 
 </Project>
