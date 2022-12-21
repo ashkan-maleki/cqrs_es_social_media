@@ -7,11 +7,23 @@
     <projectFile profileName="Post.Query.Api">SM.Post/Post.Query/Post.Query.Api/Post.Query.Api.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="Adding post and comment entity to query project" />
+    <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Infrastructure/DataAccess/DatabaseContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Infrastructure/DataAccess/DatabaseContextFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Infrastructure/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Infrastructure/Post.Query.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Infrastructure/Post.Query.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker commands and info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docker commands and info.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d5f92893b4e362502fc4e02cf758f9ed02fdab36fa5d36b75d31416bdb3596/ControllerEndpointRouteBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -22,21 +34,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "http.proxy",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;C#&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlserver"
+    ],
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "C#"
     ]
   }
-}</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Post.Command.Api">
+}]]></component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.Post.Query.Api">
     <configuration name="Post.Command.Api" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Post.Command.Api.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
@@ -117,7 +132,8 @@
       <workItem from="1671461886072" duration="2837000" />
       <workItem from="1671473522605" duration="4791000" />
       <workItem from="1671541360338" duration="3607000" />
-      <workItem from="1671556733025" duration="1524000" />
+      <workItem from="1671556733025" duration="2532000" />
+      <workItem from="1671626236525" duration="9399000" />
     </task>
     <task id="LOCAL-00001" summary="I do not know">
       <created>1671203218000</created>
@@ -294,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671558701304</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Adding comment and post repository interface">
+      <created>1671559150919</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1671559150919</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,6 +362,7 @@
     <MESSAGE value="configuring dependency injection for kafka event producer" />
     <MESSAGE value="add kafka producer to event store save event method" />
     <MESSAGE value="Adding post and comment entity to query project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding post and comment entity to query project" />
+    <MESSAGE value="Adding comment and post repository interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding comment and post repository interface" />
   </component>
 </project>
