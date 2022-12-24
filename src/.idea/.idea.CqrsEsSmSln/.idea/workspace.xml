@@ -7,11 +7,14 @@
     <projectFile profileName="Post.Query.Api">SM.Post/Post.Query/Post.Query.Api/Post.Query.Api.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Infrastructure/Handlers/EventHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Infrastructure/Handlers/IEventHandler.cs" afterDir="false" />
+    <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="add abstract and concrete version of event handler">
+      <change afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Consumers/IEventConsumer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Infrastructure/Consumers/ConsumerHostedService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Infrastructure/Consumers/EventConsumer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Infrastructure/Consumers/EventJsonConvertor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/appsettings.Development.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +135,7 @@
       <workItem from="1671626236525" duration="9656000" />
       <workItem from="1671707914923" duration="4223000" />
       <workItem from="1671718023274" duration="821000" />
-      <workItem from="1671887688230" duration="2747000" />
+      <workItem from="1671887688230" duration="8999000" />
     </task>
     <task id="LOCAL-00001" summary="I do not know">
       <created>1671203218000</created>
@@ -372,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671715035885</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="add abstract and concrete version of event handler">
+      <created>1671891271993</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1671891271994</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,7 +403,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="adding event sourcing handler" />
     <MESSAGE value="adding event store" />
     <MESSAGE value="adding mongo db config model" />
     <MESSAGE value="creating event store repository" />
@@ -418,6 +427,7 @@
     <MESSAGE value="adding and configuring db context" />
     <MESSAGE value="adding comment repository" />
     <MESSAGE value="adding post repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding post repository" />
+    <MESSAGE value="add abstract and concrete version of event handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="add abstract and concrete version of event handler" />
   </component>
 </project>
