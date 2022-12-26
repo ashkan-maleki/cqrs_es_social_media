@@ -8,19 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Queries/BaseQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Controllers/NewPostController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/DTOs/NewPostResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Common/DTOs/BaseResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Queries/FindAllPostQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Queries/FindPostByAuthorQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Queries/FindPostByIdQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Queries/FindPostWithCommentQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Queries/FindPostWithLikesQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Infrastructure/Dispatchers/QueryDispatcher.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Controllers/PostLookupController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/DTOs/PostLookupResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Queries/IQueryHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Queries/QueryHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Infrastructure/ICommandDispatcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Infrastructure/ICommandDispatcher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +139,8 @@
       <workItem from="1671718023274" duration="821000" />
       <workItem from="1671887688230" duration="9473000" />
       <workItem from="1671973905943" duration="6345000" />
-      <workItem from="1671988270843" duration="3133000" />
+      <workItem from="1671988270843" duration="3503000" />
+      <workItem from="1672056491705" duration="4934000" />
     </task>
     <task id="LOCAL-00001" summary="I do not know">
       <created>1671203218000</created>
@@ -427,7 +422,42 @@
       <option name="project" value="LOCAL" />
       <updated>1671905941640</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="add queries">
+      <created>1671993796920</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1671993796920</updated>
+    </task>
+    <task id="LOCAL-00042" summary="add base and post response">
+      <created>1671993820523</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1671993820523</updated>
+    </task>
+    <task id="LOCAL-00043" summary="clean project">
+      <created>1671993836749</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1671993836749</updated>
+    </task>
+    <task id="LOCAL-00044" summary="create new post controller">
+      <created>1671993856506</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1671993856506</updated>
+    </task>
+    <task id="LOCAL-00045" summary="create abstract and concrete query dispatcher">
+      <created>1671993911762</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1671993911762</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,11 +478,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="workspace.xml" />
-    <MESSAGE value="completing missing parts of PostAggregate" />
-    <MESSAGE value="adding command handler" />
-    <MESSAGE value="registering command handlers" />
-    <MESSAGE value="adding kafka event producer and its configuration" />
     <MESSAGE value="adding kafka topic variable" />
     <MESSAGE value="nobody knows what it is" />
     <MESSAGE value="configuring dependency injection for kafka event producer" />
@@ -473,7 +498,12 @@
     <MESSAGE value="add event consumer" />
     <MESSAGE value="Add custom json convertor for events" />
     <MESSAGE value="config dependency injection and startup project" />
-    <option name="LAST_COMMIT_MESSAGE" value="config dependency injection and startup project" />
+    <MESSAGE value="add queries" />
+    <MESSAGE value="add base and post response" />
+    <MESSAGE value="clean project" />
+    <MESSAGE value="create new post controller" />
+    <MESSAGE value="create abstract and concrete query dispatcher" />
+    <option name="LAST_COMMIT_MESSAGE" value="create abstract and concrete query dispatcher" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
