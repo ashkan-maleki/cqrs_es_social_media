@@ -25,7 +25,7 @@ public class EventStore : IEventStore
         List<EventModel>? eventStream = await _eventStoreRepository
             .FindByAggregateId(aggregateId);
 
-        if (expectedVersion != -1 && eventStream[^1].Version != null)
+        if (expectedVersion != -1 && eventStream[^1].Version != expectedVersion)
         {
             throw new ConcurrencyException();
         }

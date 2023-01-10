@@ -39,7 +39,7 @@ public class EventHandler : IEventHandler
     {
         PostEntity? post = await _postRepository.GetByIdAsync(@event.Id);
         if (post == null) return;
-        post.Likes++;
+        post.Likes = (post.Likes ?? 0) + 1;
         await _postRepository.UpdateAsync(post);
     }
 
