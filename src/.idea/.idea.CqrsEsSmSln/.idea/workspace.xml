@@ -7,9 +7,9 @@
     <projectFile profileName="Post.Query.Api">SM.Post/Post.Query/Post.Query.Api/Post.Query.Api.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Controllers/AddCommentController.cs" afterDir="false" />
+    <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="project architecture">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Controllers/AddCommentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Controllers/AddCommentController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,21 +145,7 @@
       <workItem from="1672840249068" duration="5440000" />
       <workItem from="1673355723970" duration="7917000" />
       <workItem from="1674500636762" duration="2030000" />
-      <workItem from="1674815684917" duration="817000" />
-    </task>
-    <task id="LOCAL-00003" summary="creating Aggregate Root">
-      <created>1671203259862</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1671203259862</updated>
-    </task>
-    <task id="LOCAL-00004" summary="adding post aggregate">
-      <created>1671291526900</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1671291526900</updated>
+      <workItem from="1674815684917" duration="2333000" />
     </task>
     <task id="LOCAL-00005" summary="creating required exceptions">
       <created>1671464591213</created>
@@ -490,7 +476,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673364911912</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Add comment controller">
+      <created>1674816572936</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1674816572936</updated>
+    </task>
+    <task id="LOCAL-00053" summary="project architecture">
+      <created>1674816591894</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1674816591894</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,8 +511,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="workspace files" />
-    <MESSAGE value="installing entity framework core proxies" />
     <MESSAGE value="modifying project readme" />
     <MESSAGE value="removing unneeded files" />
     <MESSAGE value="modifying sql server connection string" />
@@ -536,7 +534,9 @@
     <MESSAGE value="develop post lookup controller and response" />
     <MESSAGE value="develop edit message controller and clean up" />
     <MESSAGE value="develop liked post contoller" />
-    <option name="LAST_COMMIT_MESSAGE" value="develop liked post contoller" />
+    <MESSAGE value="Add comment controller" />
+    <MESSAGE value="project architecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="project architecture" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
