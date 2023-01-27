@@ -8,14 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Controllers/LikePostController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources/4f33e12e-855a-4a4a-bbd7-7f6234477352.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources/4f33e12e-855a-4a4a-bbd7-7f6234477352.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Controllers/AddCommentController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Stores/EventStore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Stores/EventStore.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Infrastructure/Handlers/EventHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Infrastructure/Handlers/EventHandler.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,14 +143,9 @@
       <workItem from="1672236266932" duration="1326000" />
       <workItem from="1672690804377" duration="1816000" />
       <workItem from="1672840249068" duration="5440000" />
-      <workItem from="1673355723970" duration="7824000" />
-    </task>
-    <task id="LOCAL-00002" summary="adding command dispatcher">
-      <created>1671203242455</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1671203242455</updated>
+      <workItem from="1673355723970" duration="7917000" />
+      <workItem from="1674500636762" duration="2030000" />
+      <workItem from="1674815684917" duration="817000" />
     </task>
     <task id="LOCAL-00003" summary="creating Aggregate Root">
       <created>1671203259862</created>
@@ -494,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672692610234</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="develop liked post contoller">
+      <created>1673364911912</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1673364911912</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,7 +511,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Adding comment and post repository interface" />
     <MESSAGE value="workspace files" />
     <MESSAGE value="installing entity framework core proxies" />
     <MESSAGE value="modifying project readme" />
@@ -540,7 +535,8 @@
     <MESSAGE value="develop query handler" />
     <MESSAGE value="develop post lookup controller and response" />
     <MESSAGE value="develop edit message controller and clean up" />
-    <option name="LAST_COMMIT_MESSAGE" value="develop edit message controller and clean up" />
+    <MESSAGE value="develop liked post contoller" />
+    <option name="LAST_COMMIT_MESSAGE" value="develop liked post contoller" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
