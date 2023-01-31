@@ -31,7 +31,10 @@ public class NewPostController : ControllerBase
 
             return StatusCode(StatusCodes.Status201Created,
                 new NewPostResponse
-                    {Message = "New post creation request completed successfully"});
+                {
+                    Id = id,
+                    Message = "New post creation request completed successfully"
+                });
         }
         catch (InvalidOperationException ex)
         {
