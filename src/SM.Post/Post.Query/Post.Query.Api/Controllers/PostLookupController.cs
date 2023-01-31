@@ -65,7 +65,7 @@ public class PostLookupController : ControllerBase
       }
    }
    
-   [HttpGet("Author/{author}")]
+   [HttpGet("author/{author}")]
    public async Task<ActionResult> GetByAuthorAsync(string author)
    {
       try

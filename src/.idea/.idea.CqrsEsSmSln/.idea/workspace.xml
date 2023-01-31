@@ -7,7 +7,7 @@
     <projectFile profileName="Post.Query.Api">SM.Post/Post.Query/Post.Query.Api/Post.Query.Api.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="Complete Process Steps.docx">
+    <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="Add post related apis">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Controllers/PostLookupController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Controllers/PostLookupController.cs" afterDir="false" />
     </list>
@@ -154,14 +154,7 @@
       <workItem from="1674928226303" duration="824000" />
       <workItem from="1675092319057" duration="14224000" />
       <workItem from="1675113945506" duration="565000" />
-      <workItem from="1675166527378" duration="10127000" />
-    </task>
-    <task id="LOCAL-00014" summary="workspace.xml">
-      <created>1671464828519</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1671464828519</updated>
+      <workItem from="1675166527378" duration="12356000" />
     </task>
     <task id="LOCAL-00015" summary="adding dependency injection">
       <created>1671480632280</created>
@@ -499,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675175842691</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Add post related apis">
+      <created>1675176973183</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1675176973183</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,7 +520,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="add event consumer" />
     <MESSAGE value="Add custom json convertor for events" />
     <MESSAGE value="config dependency injection and startup project" />
     <MESSAGE value="add queries" />
@@ -545,7 +544,8 @@
     <MESSAGE value="Create and develop Architecture Overview" />
     <MESSAGE value="Describe process steps" />
     <MESSAGE value="Complete Process Steps.docx" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete Process Steps.docx" />
+    <MESSAGE value="Add post related apis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add post related apis" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1953,6 +1953,305 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Controllers/PostLookupController.cs</url>
+          <line>28</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Query\Post.Query.Api\Controllers\PostLookupController.cs" initialLine="28" containingFunctionPresentation="method 'GetAllPostAsync'">
+            <startOffsets>
+              <option value="741" />
+            </startOffsets>
+            <endOffsets>
+              <option value="837" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Controllers/PostLookupController.cs</url>
+          <line>35</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Query\Post.Query.Api\Controllers\PostLookupController.cs" initialLine="35" containingFunctionPresentation="method 'GetAllPostAsync'">
+            <startOffsets>
+              <option value="930" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1020" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Controllers/PostLookupController.cs</url>
+          <line>45</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Query\Post.Query.Api\Controllers\PostLookupController.cs" initialLine="45" containingFunctionPresentation="method 'GetByPostIdAsync'">
+            <startOffsets>
+              <option value="1215" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1324" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Controllers/PostLookupController.cs</url>
+          <line>62</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Query\Post.Query.Api\Controllers\PostLookupController.cs" initialLine="62" containingFunctionPresentation="method 'GetByPostIdAsync'">
+            <startOffsets>
+              <option value="1658" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1749" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Controllers/PostLookupController.cs</url>
+          <line>72</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Query\Post.Query.Api\Controllers\PostLookupController.cs" initialLine="72" containingFunctionPresentation="method 'GetByAuthorAsync'">
+            <startOffsets>
+              <option value="1953" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2070" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Controllers/PostLookupController.cs</url>
+          <line>79</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Query\Post.Query.Api\Controllers\PostLookupController.cs" initialLine="79" containingFunctionPresentation="method 'GetByAuthorAsync'">
+            <startOffsets>
+              <option value="2163" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2259" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Controllers/PostLookupController.cs</url>
+          <line>89</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Query\Post.Query.Api\Controllers\PostLookupController.cs" initialLine="89" containingFunctionPresentation="method 'GetPostsWithCommentsAsync'">
+            <startOffsets>
+              <option value="2457" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2561" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Controllers/PostLookupController.cs</url>
+          <line>96</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Query\Post.Query.Api\Controllers\PostLookupController.cs" initialLine="96" containingFunctionPresentation="method 'GetPostsWithCommentsAsync'">
+            <startOffsets>
+              <option value="2654" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2754" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Controllers/PostLookupController.cs</url>
+          <line>106</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Query\Post.Query.Api\Controllers\PostLookupController.cs" initialLine="106" containingFunctionPresentation="method 'GetPostsWithLikesAsync'">
+            <startOffsets>
+              <option value="2976" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3108" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Controllers/PostLookupController.cs</url>
+          <line>113</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Query\Post.Query.Api\Controllers\PostLookupController.cs" initialLine="113" containingFunctionPresentation="method 'GetPostsWithLikesAsync'">
+            <startOffsets>
+              <option value="3201" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3298" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Queries/QueryHandler.cs</url>
+          <line>13</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Query\Post.Query.Api\Queries\QueryHandler.cs" initialLine="13" containingFunctionPresentation="method 'HandleAsync'">
+            <startOffsets>
+              <option value="398" />
+            </startOffsets>
+            <endOffsets>
+              <option value="434" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Queries/QueryHandler.cs</url>
+          <line>22</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Query\Post.Query.Api\Queries\QueryHandler.cs" initialLine="22" containingFunctionPresentation="method 'HandleAsync'">
+            <startOffsets>
+              <option value="744" />
+            </startOffsets>
+            <endOffsets>
+              <option value="797" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Queries/QueryHandler.cs</url>
+          <line>25</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Query\Post.Query.Api\Queries\QueryHandler.cs" initialLine="25" containingFunctionPresentation="method 'HandleAsync'">
+            <startOffsets>
+              <option value="896" />
+            </startOffsets>
+            <endOffsets>
+              <option value="941" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Queries/QueryHandler.cs</url>
+          <line>28</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Query\Post.Query.Api\Queries\QueryHandler.cs" initialLine="28" containingFunctionPresentation="method 'HandleAsync'">
+            <startOffsets>
+              <option value="1038" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1106" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Infrastructure/Repositories/PostRepository.cs</url>
+          <line>56</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Query\Post.Query.Infrastructure\Repositories\PostRepository.cs" initialLine="56" containingFunctionPresentation="method 'ListAllAsync'">
+            <startOffsets>
+              <option value="1683" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1684" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Infrastructure/Repositories/PostRepository.cs</url>
+          <line>64</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Query\Post.Query.Infrastructure\Repositories\PostRepository.cs" initialLine="64" containingFunctionPresentation="method 'ListByAuthorAsync'">
+            <startOffsets>
+              <option value="1984" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1985" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Infrastructure/Repositories/PostRepository.cs</url>
+          <line>72</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Query\Post.Query.Infrastructure\Repositories\PostRepository.cs" initialLine="72" containingFunctionPresentation="method 'ListWithLikesAsync'">
+            <startOffsets>
+              <option value="2328" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2329" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Infrastructure/Repositories/PostRepository.cs</url>
+          <line>80</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Query\Post.Query.Infrastructure\Repositories\PostRepository.cs" initialLine="80" containingFunctionPresentation="method 'ListWithCommentsAsync'">
+            <startOffsets>
+              <option value="2657" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2658" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Queries/QueryHandler.cs</url>
+          <line>17</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Query\Post.Query.Api\Queries\QueryHandler.cs" initialLine="17" containingFunctionPresentation="method 'HandleAsync'">
+            <startOffsets>
+              <option value="528" />
+            </startOffsets>
+            <endOffsets>
+              <option value="599" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Queries/QueryHandler.cs</url>
+          <line>18</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Query\Post.Query.Api\Queries\QueryHandler.cs" initialLine="18" containingFunctionPresentation="method 'HandleAsync'">
+            <startOffsets>
+              <option value="608" />
+            </startOffsets>
+            <endOffsets>
+              <option value="643" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Infrastructure/Dispatchers/QueryDispatcher.cs</url>
+          <line>21</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Query\Post.Query.Infrastructure\Dispatchers\QueryDispatcher.cs" initialLine="21" containingFunctionPresentation="method 'SendAsync'">
+            <startOffsets>
+              <option value="786" />
+            </startOffsets>
+            <endOffsets>
+              <option value="787" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Controllers/PostLookupController.cs</url>
+          <line>75</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Query\Post.Query.Api\Controllers\PostLookupController.cs" initialLine="75" containingFunctionPresentation="method 'GetByAuthorAsync'">
+            <startOffsets>
+              <option value="2081" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2110" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Controllers/PostLookupController.cs</url>
+          <line>92</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Query\Post.Query.Api\Controllers\PostLookupController.cs" initialLine="92" containingFunctionPresentation="method 'GetPostsWithCommentsAsync'">
+            <startOffsets>
+              <option value="2572" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2601" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="147" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
