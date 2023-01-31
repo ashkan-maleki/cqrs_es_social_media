@@ -7,9 +7,9 @@
     <projectFile profileName="Post.Query.Api">SM.Post/Post.Query/Post.Query.Api/Post.Query.Api.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="Describe process steps">
-      <change beforePath="$PROJECT_DIR$/../docs/Process Steps.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/Process Steps.docx" afterDir="false" />
+    <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="Complete Process Steps.docx">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Controllers/PostLookupController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Controllers/PostLookupController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,14 +154,7 @@
       <workItem from="1674928226303" duration="824000" />
       <workItem from="1675092319057" duration="14224000" />
       <workItem from="1675113945506" duration="565000" />
-      <workItem from="1675166527378" duration="8724000" />
-    </task>
-    <task id="LOCAL-00013" summary="creating event model">
-      <created>1671464810173</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1671464810173</updated>
+      <workItem from="1675166527378" duration="10127000" />
     </task>
     <task id="LOCAL-00014" summary="workspace.xml">
       <created>1671464828519</created>
@@ -499,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675172984511</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Complete Process Steps.docx">
+      <created>1675175842691</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1675175842691</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,7 +520,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Develop consumer hosted service for kafka consumer" />
     <MESSAGE value="add event consumer" />
     <MESSAGE value="Add custom json convertor for events" />
     <MESSAGE value="config dependency injection and startup project" />
@@ -545,7 +544,8 @@
     <MESSAGE value="Develop RemoveCommentController.cs" />
     <MESSAGE value="Create and develop Architecture Overview" />
     <MESSAGE value="Describe process steps" />
-    <option name="LAST_COMMIT_MESSAGE" value="Describe process steps" />
+    <MESSAGE value="Complete Process Steps.docx" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete Process Steps.docx" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
