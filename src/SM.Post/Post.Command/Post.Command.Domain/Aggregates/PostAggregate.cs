@@ -112,7 +112,7 @@ public class PostAggregate : AggregateRoot
     public void Apply(CommentAddedEvent @event)
     {
         Id = @event.Id;
-        _comments.Add(@event.Id,
+        _comments.Add(@event.CommentId,
             new Tuple<string, string>(@event.Comment!, @event.Username!));
     }
 
