@@ -9,4 +9,5 @@ public interface IEventStore
         int expectedVersion);
 
     Task<List<BaseEvent>> GetEventAsync(Guid aggregateId);
+    Task<List<Guid>> GetAggregateIdsAsync();
 }
