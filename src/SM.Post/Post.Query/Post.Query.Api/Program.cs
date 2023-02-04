@@ -15,9 +15,14 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+// Action<DbContextOptionsBuilder> configureDbContext = 
+//     o => o.UseLazyLoadingProxies().UseSqlServer(
+//         builder.Configuration.GetConnectionString("SqlServer"));
+
 Action<DbContextOptionsBuilder> configureDbContext = 
-    o => o.UseLazyLoadingProxies().UseSqlServer(
-        builder.Configuration.GetConnectionString("SqlServer"));
+    o => o.UseLazyLoadingProxies().UseNpgsql(
+        builder.Configuration.GetConnectionString("Postgresql"));
+
 builder.Services.AddDbContext<DatabaseContext>(configureDbContext);
 builder.Services.AddSingleton<DatabaseContextFactory>(
     new DatabaseContextFactory(configureDbContext));
@@ -72,3 +77,6 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+// https://blog.logrocket.com/docker-sql-server/
+// https://github.com/Microsoft/mssql-docker/issues/283
