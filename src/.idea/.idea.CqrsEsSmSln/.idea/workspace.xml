@@ -7,9 +7,38 @@
     <projectFile profileName="Post.Query.Api">SM.Post/Post.Query/Post.Query.Api/Post.Query.Api.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="Add post related apis">
+    <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Commands/RestoreReadDbCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Controllers/RestoreReadDbController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources/4f33e12e-855a-4a4a-bbd7-7f6234477352.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources/4f33e12e-855a-4a4a-bbd7-7f6234477352/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources/4f33e12e-855a-4a4a-bbd7-7f6234477352/storage_v2/_src_/database/msdb.pEgzAA/schema/dbo.sYMBAA.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources/4f33e12e-855a-4a4a-bbd7-7f6234477352/storage_v2/_src_/database/msdb.pEgzAA/schema/managed_backup.YmLD7g.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources/4f33e12e-855a-4a4a-bbd7-7f6234477352/storage_v2/_src_/database/msdb.pEgzAA/schema/smart_admin.WcEq9g.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Controllers/PostLookupController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Controllers/PostLookupController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Domain/IEventStoreRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Domain/IEventStoreRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Handlers/IEventSourcingHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Handlers/IEventSourcingHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Infrastructure/IEventStore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Infrastructure/IEventStore.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CqrsEsSmSln.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CqrsEsSmSln.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Commands/CommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Commands/CommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Commands/ICommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Commands/ICommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Post.Command.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Post.Command.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Handlers/EventSourcingHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Handlers/EventSourcingHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Repositories/EventStoreRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Repositories/EventStoreRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Stores/EventStore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Stores/EventStore.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Post.Query.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Post.Query.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Domain/Entities/CommentEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Domain/Entities/CommentEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Domain/Entities/PostEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Domain/Entities/PostEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Infrastructure/Post.Query.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Infrastructure/Post.Query.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker commands and info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +52,6 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8e301f91daea60ec66792fac8061c9b2d8b881d997c961563b854f187dc5faf/Environment.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d5f92893b4e362502fc4e02cf758f9ed02fdab36fa5d36b75d31416bdb3596/ControllerEndpointRouteBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/efd3e9c4749621d4a53b45d7117d2a581e02a265c444a040f1387a155db/Dictionary.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://F:/learn/dotnet/cqrs_es_social_media/src/SM.Post/Post.Command/Post.Command.Api/Controllers/NewPostController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://F:/learn/dotnet/cqrs_es_social_media/src/SM.Post/Post.Command/Post.Command.Domain/Aggregates/PostAggregate.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,13 +67,14 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
-      &quot;sqlserver&quot;,
-      &quot;mongo&quot;
+      &quot;mongo&quot;,
+      &quot;postgresql&quot;,
+      &quot;sqlserver&quot;
     ],
     &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
       &quot;C#&quot;
@@ -114,6 +142,28 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Docker-Compose" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="secondarySourceFiles">
+            <list>
+              <option value="docker-compose.override.yml" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isPublishEnabled="true" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.Post.Command.Api" />
+      <item itemvalue=".NET Launch Settings Profile.Post.Command.Api: IIS Express" />
+      <item itemvalue=".NET Launch Settings Profile.Post.Query.Api" />
+      <item itemvalue=".NET Launch Settings Profile.Post.Query.Api: IIS Express" />
+      <item itemvalue="Docker.Docker-Compose" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -154,21 +204,11 @@
       <workItem from="1674928226303" duration="824000" />
       <workItem from="1675092319057" duration="14224000" />
       <workItem from="1675113945506" duration="565000" />
-      <workItem from="1675166527378" duration="12356000" />
-    </task>
-    <task id="LOCAL-00015" summary="adding dependency injection">
-      <created>1671480632280</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1671480632281</updated>
-    </task>
-    <task id="LOCAL-00016" summary="workspace.xml">
-      <created>1671480644475</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1671480644475</updated>
+      <workItem from="1675166527378" duration="20170000" />
+      <workItem from="1675496703896" duration="2655000" />
+      <workItem from="1675510685666" duration="14153000" />
+      <workItem from="1675526901826" duration="81000" />
+      <workItem from="1675540415853" duration="3802000" />
     </task>
     <task id="LOCAL-00017" summary="completing missing parts of PostAggregate">
       <created>1671480727894</created>
@@ -499,7 +539,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675176973183</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Fix get by author route">
+      <created>1675182225775</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1675182225775</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Remove unneeded files">
+      <created>1675182263029</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1675182263029</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,8 +574,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Add custom json convertor for events" />
-    <MESSAGE value="config dependency injection and startup project" />
     <MESSAGE value="add queries" />
     <MESSAGE value="add base and post response" />
     <MESSAGE value="clean project" />
@@ -545,7 +597,9 @@
     <MESSAGE value="Describe process steps" />
     <MESSAGE value="Complete Process Steps.docx" />
     <MESSAGE value="Add post related apis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add post related apis" />
+    <MESSAGE value="Fix get by author route" />
+    <MESSAGE value="Remove unneeded files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove unneeded files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -630,13 +684,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Handlers/EventSourcingHandler.cs</url>
-          <line>22</line>
+          <line>25</line>
           <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Command\Post.Command.Infrastructure\Handlers\EventSourcingHandler.cs" initialLine="22" containingFunctionPresentation="method 'SaveAsync'">
             <startOffsets>
-              <option value="626" />
+              <option value="775" />
             </startOffsets>
             <endOffsets>
-              <option value="661" />
+              <option value="810" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="10" />
@@ -799,13 +853,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Handlers/EventSourcingHandler.cs</url>
-          <line>26</line>
+          <line>29</line>
           <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Command\Post.Command.Infrastructure\Handlers\EventSourcingHandler.cs" initialLine="26" containingFunctionPresentation="method 'GetByIdAsync'">
             <startOffsets>
-              <option value="741" />
+              <option value="890" />
             </startOffsets>
             <endOffsets>
-              <option value="742" />
+              <option value="891" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="24" />
@@ -1332,13 +1386,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Handlers/EventSourcingHandler.cs</url>
-          <line>35</line>
+          <line>38</line>
           <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Command\Post.Command.Infrastructure\Handlers\EventSourcingHandler.cs" initialLine="35" containingFunctionPresentation="method 'GetByIdAsync'">
             <startOffsets>
-              <option value="976" />
+              <option value="1125" />
             </startOffsets>
             <endOffsets>
-              <option value="1006" />
+              <option value="1155" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="76" />
@@ -1410,13 +1464,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Handlers/EventSourcingHandler.cs</url>
-          <line>19</line>
+          <line>22</line>
           <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Command\Post.Command.Infrastructure\Handlers\EventSourcingHandler.cs" initialLine="19" containingFunctionPresentation="method 'SaveAsync'">
             <startOffsets>
-              <option value="491" />
+              <option value="640" />
             </startOffsets>
             <endOffsets>
-              <option value="617" />
+              <option value="766" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="82" />
@@ -1488,13 +1542,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Handlers/EventSourcingHandler.cs</url>
-          <line>28</line>
+          <line>31</line>
           <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Command\Post.Command.Infrastructure\Handlers\EventSourcingHandler.cs" initialLine="28" containingFunctionPresentation="method 'GetByIdAsync'">
             <startOffsets>
-              <option value="792" />
+              <option value="941" />
             </startOffsets>
             <endOffsets>
-              <option value="862" />
+              <option value="1011" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="88" />
@@ -1670,13 +1724,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Handlers/EventSourcingHandler.cs</url>
-          <line>40</line>
+          <line>43</line>
           <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Command\Post.Command.Infrastructure\Handlers\EventSourcingHandler.cs" initialLine="40" containingFunctionPresentation="method 'GetByIdAsync'">
             <startOffsets>
-              <option value="1114" />
+              <option value="1263" />
             </startOffsets>
             <endOffsets>
-              <option value="1131" />
+              <option value="1280" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="102" />
@@ -2253,6 +2307,162 @@
           </properties>
           <option name="timeStamp" value="147" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Program.cs</url>
+          <line>32</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Query\Post.Query.Api\Program.cs" initialLine="27" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="1165" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1202" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Program.cs</url>
+          <line>34</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Query\Post.Query.Api\Program.cs" initialLine="29" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="1204" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1266" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Controllers/RestoreReadDbController.cs</url>
+          <line>23</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Command\Post.Command.Api\Controllers\RestoreReadDbController.cs" initialLine="23" containingFunctionPresentation="method 'RestoreReadDbAsync'">
+            <startOffsets>
+              <option value="702" />
+            </startOffsets>
+            <endOffsets>
+              <option value="703" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Controllers/RestoreReadDbController.cs</url>
+          <line>26</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Command\Post.Command.Api\Controllers\RestoreReadDbController.cs" initialLine="26" containingFunctionPresentation="method 'RestoreReadDbAsync'">
+            <startOffsets>
+              <option value="738" />
+            </startOffsets>
+            <endOffsets>
+              <option value="801" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Commands/CommandHandler.cs</url>
+          <line>63</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Command\Post.Command.Api\Commands\CommandHandler.cs" initialLine="63" containingFunctionPresentation="method 'HandleAsync'">
+            <startOffsets>
+              <option value="2343" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2392" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Handlers/EventSourcingHandler.cs</url>
+          <line>47</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Command\Post.Command.Infrastructure\Handlers\EventSourcingHandler.cs" initialLine="47" containingFunctionPresentation="method 'RepublishEventAsync'">
+            <startOffsets>
+              <option value="1336" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1337" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Handlers/EventSourcingHandler.cs</url>
+          <line>61</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Command\Post.Command.Infrastructure\Handlers\EventSourcingHandler.cs" initialLine="61" containingFunctionPresentation="method 'RepublishEventAsync'">
+            <startOffsets>
+              <option value="1811" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1881" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Handlers/EventSourcingHandler.cs</url>
+          <line>57</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Command\Post.Command.Infrastructure\Handlers\EventSourcingHandler.cs" initialLine="57" containingFunctionPresentation="method 'RepublishEventAsync'">
+            <startOffsets>
+              <option value="1660" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1718" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Handlers/EventSourcingHandler.cs</url>
+          <line>49</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Command\Post.Command.Infrastructure\Handlers\EventSourcingHandler.cs" initialLine="49" containingFunctionPresentation="method 'RepublishEventAsync'">
+            <startOffsets>
+              <option value="1421" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1488" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Stores/EventStore.cs</url>
+          <line>71</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Command\Post.Command.Infrastructure\Stores\EventStore.cs" initialLine="71" containingFunctionPresentation="method 'GetAggregateIdsAsync'">
+            <startOffsets>
+              <option value="2259" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2347" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Handlers/EventSourcingHandler.cs</url>
+          <line>63</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Command\Post.Command.Infrastructure\Handlers\EventSourcingHandler.cs" initialLine="63" containingFunctionPresentation="method 'RepublishEventAsync'">
+            <startOffsets>
+              <option value="1895" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1931" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Handlers/EventSourcingHandler.cs</url>
+          <line>65</line>
+          <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Command\Post.Command.Infrastructure\Handlers\EventSourcingHandler.cs" initialLine="65" containingFunctionPresentation="method 'RepublishEventAsync'">
+            <startOffsets>
+              <option value="1962" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2011" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -2261,5 +2471,9 @@
         <watch expression="aggregateId" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -1,39 +1,38 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CQRS.ES", "CQRS.ES", "{CCD55F88-C79F-4C1C-8514-A5CBE3602102}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS.Core", "CQRS.ES\CQRS.Core\CQRS.Core.csproj", "{26E320F7-3292-4FF4-839F-AC419E384DB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRS.Core", "CQRS.ES\CQRS.Core\CQRS.Core.csproj", "{26E320F7-3292-4FF4-839F-AC419E384DB6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SM.Post", "SM.Post", "{59448073-F5D5-4491-972E-C6AB79F2D1A0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Post.Command", "Post.Command", "{66D9C7FB-049A-42C9-BBAB-6C1EEDF1ED52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Command.Api", "SM.Post\Post.Command\Post.Command.Api\Post.Command.Api.csproj", "{2AFAD66A-FA25-4409-80AC-81DE4A4BCC59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Post.Command.Api", "SM.Post\Post.Command\Post.Command.Api\Post.Command.Api.csproj", "{2AFAD66A-FA25-4409-80AC-81DE4A4BCC59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Command.Domain", "SM.Post\Post.Command\Post.Command.Domain\Post.Command.Domain.csproj", "{31511D8F-A2F1-42C0-B566-879C8065B274}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Post.Command.Domain", "SM.Post\Post.Command\Post.Command.Domain\Post.Command.Domain.csproj", "{31511D8F-A2F1-42C0-B566-879C8065B274}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Command.Infrastructure", "SM.Post\Post.Command\Post.Command.Infrastructure\Post.Command.Infrastructure.csproj", "{ECD35E28-FF7C-4273-B4AE-B720F8F7BD40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Post.Command.Infrastructure", "SM.Post\Post.Command\Post.Command.Infrastructure\Post.Command.Infrastructure.csproj", "{ECD35E28-FF7C-4273-B4AE-B720F8F7BD40}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Post.Query", "Post.Query", "{53C84C40-D883-46B4-82E0-EDFFC8A697FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Query.Infrastructure", "SM.Post\Post.Query\Post.Query.Infrastructure\Post.Query.Infrastructure.csproj", "{E3B9D53F-2CC5-459C-8ECB-43B3621FBAFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Post.Query.Infrastructure", "SM.Post\Post.Query\Post.Query.Infrastructure\Post.Query.Infrastructure.csproj", "{E3B9D53F-2CC5-459C-8ECB-43B3621FBAFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Query.Api", "SM.Post\Post.Query\Post.Query.Api\Post.Query.Api.csproj", "{A680C97E-A80E-4AE7-A505-343FA209B2C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Post.Query.Api", "SM.Post\Post.Query\Post.Query.Api\Post.Query.Api.csproj", "{A680C97E-A80E-4AE7-A505-343FA209B2C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Query.Domain", "SM.Post\Post.Query\Post.Query.Domain\Post.Query.Domain.csproj", "{5B5A2D24-114E-42C5-B027-735774FEB2C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Post.Query.Domain", "SM.Post\Post.Query\Post.Query.Domain\Post.Query.Domain.csproj", "{5B5A2D24-114E-42C5-B027-735774FEB2C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Common", "SM.Post\Post.Common\Post.Common.csproj", "{947B851C-0A93-40D9-9F39-B91ECBF4387C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Post.Common", "SM.Post\Post.Common\Post.Common.csproj", "{947B851C-0A93-40D9-9F39-B91ECBF4387C}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{3DEE301A-2A4A-48F1-A9E2-2113A8FE7D30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{26E320F7-3292-4FF4-839F-AC419E384DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -68,6 +67,13 @@ Global
 		{947B851C-0A93-40D9-9F39-B91ECBF4387C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{947B851C-0A93-40D9-9F39-B91ECBF4387C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{947B851C-0A93-40D9-9F39-B91ECBF4387C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DEE301A-2A4A-48F1-A9E2-2113A8FE7D30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DEE301A-2A4A-48F1-A9E2-2113A8FE7D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DEE301A-2A4A-48F1-A9E2-2113A8FE7D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DEE301A-2A4A-48F1-A9E2-2113A8FE7D30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{26E320F7-3292-4FF4-839F-AC419E384DB6} = {CCD55F88-C79F-4C1C-8514-A5CBE3602102}
@@ -80,5 +86,8 @@ Global
 		{A680C97E-A80E-4AE7-A505-343FA209B2C1} = {53C84C40-D883-46B4-82E0-EDFFC8A697FC}
 		{5B5A2D24-114E-42C5-B027-735774FEB2C3} = {53C84C40-D883-46B4-82E0-EDFFC8A697FC}
 		{947B851C-0A93-40D9-9F39-B91ECBF4387C} = {59448073-F5D5-4491-972E-C6AB79F2D1A0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6F618E5-4453-4724-AA70-61065A8F6427}
 	EndGlobalSection
 EndGlobal
