@@ -15,13 +15,13 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-// Action<DbContextOptionsBuilder> configureDbContext = 
-//     o => o.UseLazyLoadingProxies().UseSqlServer(
-//         builder.Configuration.GetConnectionString("SqlServer"));
-
 Action<DbContextOptionsBuilder> configureDbContext = 
-    o => o.UseLazyLoadingProxies().UseNpgsql(
-        builder.Configuration.GetConnectionString("Postgresql"));
+    o => o.UseLazyLoadingProxies().UseSqlServer(
+        builder.Configuration.GetConnectionString("SqlServer"));
+//
+// Action<DbContextOptionsBuilder> configureDbContext = 
+//     o => o.UseLazyLoadingProxies().UseNpgsql(
+//         builder.Configuration.GetConnectionString("Postgresql"));
 
 builder.Services.AddDbContext<DatabaseContext>(configureDbContext);
 builder.Services.AddSingleton<DatabaseContextFactory>(

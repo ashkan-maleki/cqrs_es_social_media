@@ -1,37 +1,47 @@
-version: "3.4"
+version: '3.4'
 
 services:
   zookeeper:
     image: bitnami/zookeeper
-    restart: always
-    ports:
-      - "2181:2181"
-    volumes:
-      - "zookeeper_data:/bitnami"
-    environment:
-      - ALLOW_ANONYMOUS_LOGIN=yes
+
   kafka:
     image: bitnami/kafka
-    ports:
-      - "9092:9092"
-    restart: always
-    volumes:
-      - "kafka_data:/bitnami"
-    environment:
-      - KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181
-      - ALLOW_PLAINTEXT_LISTENER=yes
-      - KAFKA_LISTENERS=PLAINTEXT://:9092
-      - KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092
-    depends_on:
-      - zookeeper
+    
+  mongo-container:
+    image: mongo:latest
+
+  postgres-container:
+    image: postgres:latest   
+ 
+
+  sql-container:
+    image: mcr.microsoft.com/mssql/server:2017-latest-ubuntu
+  
+  pgadmin:
+    image: dpage/pgadmin4
+    
+#  post.query.api:
+#    image: ${DOCKER_REGISTRY-}postqueryapi
+#    build:
+#      context: .
+#      dockerfile: SM.Post/Post.Query/Post.Query.Api/Dockerfile
+#
+#  post.command.api:
+#    image: ${DOCKER_REGISTRY-}postcommandapi
+#    build:
+#      context: .
+#      dockerfile: SM.Post/Post.Command/Post.Command.Api/Dockerfile
+
 
 volumes:
   zookeeper_data:
     driver: local
   kafka_data:
     driver: local
-   
+  mongodb_data_container:
+  posgresql_data:
+  pgadmin_data:
+
 networks:
-  default:
-    external:
-      name: cqrssocialmedianetwork
+  cqrssocialmedianetwork:
+    external: true

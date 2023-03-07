@@ -8,35 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50b60d40-b184-4199-9885-dd70248108ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Commands/RestoreReadDbCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Controllers/RestoreReadDbController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources/4f33e12e-855a-4a4a-bbd7-7f6234477352.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources/4f33e12e-855a-4a4a-bbd7-7f6234477352/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources/4f33e12e-855a-4a4a-bbd7-7f6234477352/storage_v2/_src_/database/msdb.pEgzAA/schema/dbo.sYMBAA.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources/4f33e12e-855a-4a4a-bbd7-7f6234477352/storage_v2/_src_/database/msdb.pEgzAA/schema/managed_backup.YmLD7g.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources/4f33e12e-855a-4a4a-bbd7-7f6234477352/storage_v2/_src_/database/msdb.pEgzAA/schema/smart_admin.WcEq9g.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources/07ad8cdc-095e-4e3b-a017-f7943f18b561.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources/07ad8cdc-095e-4e3b-a017-f7943f18b561.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources/07ad8cdc-095e-4e3b-a017-f7943f18b561/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/dataSources/07ad8cdc-095e-4e3b-a017-f7943f18b561/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CqrsEsSmSln/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Domain/IEventStoreRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Domain/IEventStoreRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Handlers/IEventSourcingHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Handlers/IEventSourcingHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Infrastructure/IEventStore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CQRS.ES/CQRS.Core/Infrastructure/IEventStore.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CqrsEsSmSln.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CqrsEsSmSln.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Commands/CommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Commands/CommandHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Commands/ICommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Commands/ICommandHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Post.Command.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Post.Command.Api.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Api/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Handlers/EventSourcingHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Handlers/EventSourcingHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Repositories/EventStoreRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Repositories/EventStoreRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Stores/EventStore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Command/Post.Command.Infrastructure/Stores/EventStore.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Post.Query.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Post.Query.Api.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/Properties/launchSettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Api/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Domain/Entities/CommentEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Domain/Entities/CommentEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Domain/Entities/PostEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Domain/Entities/PostEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Infrastructure/Post.Query.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SM.Post/Post.Query/Post.Query.Infrastructure/Post.Query.Infrastructure.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker commands and info.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
@@ -208,84 +185,9 @@
       <workItem from="1675496703896" duration="2655000" />
       <workItem from="1675510685666" duration="14153000" />
       <workItem from="1675526901826" duration="81000" />
-      <workItem from="1675540415853" duration="3802000" />
-    </task>
-    <task id="LOCAL-00017" summary="completing missing parts of PostAggregate">
-      <created>1671480727894</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1671480727894</updated>
-    </task>
-    <task id="LOCAL-00018" summary="adding command handler">
-      <created>1671480742443</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1671480742443</updated>
-    </task>
-    <task id="LOCAL-00019" summary="registering command handlers">
-      <created>1671481501324</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1671481501324</updated>
-    </task>
-    <task id="LOCAL-00020" summary="adding kafka event producer and its configuration">
-      <created>1671545665698</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1671545665698</updated>
-    </task>
-    <task id="LOCAL-00021" summary="adding kafka topic variable">
-      <created>1671546469447</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1671546469447</updated>
-    </task>
-    <task id="LOCAL-00022" summary="nobody knows what it is">
-      <created>1671546487085</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1671546487085</updated>
-    </task>
-    <task id="LOCAL-00023" summary="configuring dependency injection for kafka event producer">
-      <created>1671546537899</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1671546537899</updated>
-    </task>
-    <task id="LOCAL-00024" summary="add kafka producer to event store save event method">
-      <created>1671546569025</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1671546569025</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Adding post and comment entity to query project">
-      <created>1671558701304</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1671558701304</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Adding comment and post repository interface">
-      <created>1671559150919</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1671559150919</updated>
-    </task>
-    <task id="LOCAL-00027" summary="workspace files">
-      <created>1671637701168</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1671637701168</updated>
+      <workItem from="1675540415853" duration="4557000" />
+      <workItem from="1675605506409" duration="5131000" />
+      <workItem from="1678194457221" duration="638000" />
     </task>
     <task id="LOCAL-00028" summary="installing entity framework core proxies">
       <created>1671637735999</created>
@@ -553,7 +455,84 @@
       <option name="project" value="LOCAL" />
       <updated>1675182263029</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Change schema to dbo">
+      <created>1675546362885</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1675546362886</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Restore read db">
+      <created>1675546455239</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1675546455239</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Add postgres">
+      <created>1675546473816</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1675546473816</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Change schema to dbo">
+      <created>1675546503734</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1675546503734</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Dockerize api projects">
+      <created>1675546571247</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1675546571247</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Add restore read db">
+      <created>1675546625720</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1675546625720</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Add postgres ef core package">
+      <created>1675546642708</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1675546642708</updated>
+    </task>
+    <task id="LOCAL-00073" summary="organize project">
+      <created>1675546709091</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1675546709091</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Dockerize api projects">
+      <created>1675546749693</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1675546749693</updated>
+    </task>
+    <task id="LOCAL-00075" summary="organize project">
+      <created>1675546779677</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1675546779677</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Dockerize api projects">
+      <created>1675546815303</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1675546815303</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,13 +553,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="add queries" />
-    <MESSAGE value="add base and post response" />
-    <MESSAGE value="clean project" />
-    <MESSAGE value="create new post controller" />
-    <MESSAGE value="create abstract and concrete query dispatcher" />
-    <MESSAGE value="clean up the project" />
-    <MESSAGE value="set up dispatcher" />
     <MESSAGE value="develop query handler" />
     <MESSAGE value="develop post lookup controller and response" />
     <MESSAGE value="develop edit message controller and clean up" />
@@ -599,7 +571,14 @@
     <MESSAGE value="Add post related apis" />
     <MESSAGE value="Fix get by author route" />
     <MESSAGE value="Remove unneeded files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove unneeded files" />
+    <MESSAGE value="Restore read db" />
+    <MESSAGE value="Add postgres" />
+    <MESSAGE value="Change schema to dbo" />
+    <MESSAGE value="Add restore read db" />
+    <MESSAGE value="Add postgres ef core package" />
+    <MESSAGE value="organize project" />
+    <MESSAGE value="Dockerize api projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dockerize api projects" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2312,10 +2291,10 @@
           <line>32</line>
           <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Query\Post.Query.Api\Program.cs" initialLine="27" containingFunctionPresentation="">
             <startOffsets>
-              <option value="1165" />
+              <option value="1167" />
             </startOffsets>
             <endOffsets>
-              <option value="1202" />
+              <option value="1204" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="148" />
@@ -2325,10 +2304,10 @@
           <line>34</line>
           <properties documentPath="F:\learn\dotnet\cqrs_es_social_media\src\SM.Post\Post.Query\Post.Query.Api\Program.cs" initialLine="29" containingFunctionPresentation="">
             <startOffsets>
-              <option value="1204" />
+              <option value="1206" />
             </startOffsets>
             <endOffsets>
-              <option value="1266" />
+              <option value="1268" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="149" />
@@ -2469,6 +2448,7 @@
       <configuration name="LaunchSettings">
         <watch expression="_eventStoreCollection" />
         <watch expression="aggregateId" />
+        <watch expression="System.Linq.IQueryable.Expression" />
       </configuration>
     </watches-manager>
   </component>
